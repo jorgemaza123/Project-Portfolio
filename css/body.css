@@ -1,0 +1,107 @@
+.main {
+  /* background-image: url(/img/css-3.svg); */
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+}
+
+.content {
+  margin-top: 300px;
+  max-width: 600px;
+  width: 500px;
+  height: 100vh;
+  padding: 15px;
+  overflow: hidden;
+}
+.content h1 {
+  font-size: 56px;
+  font-weight: 700;
+}
+.content h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(255, 12, 12);
+}
+.content p {
+  font-size: 16px;
+  color: white;
+}
+
+.content__h1 {
+  font-size: 45px;
+  line-height: 80px;
+  max-width: 635px;
+  letter-spacing: -4px;
+  color: rgb(255, 12, 12);
+}
+.content__h1:hover{
+  text-shadow: 0 0 5px #fff,
+  0 0 10px #fff, 0 0 15px #ff852e,
+  0 0 20px #ff852e, 0 0 25px #ff852e,
+  0 0 30px #ff852e
+}
+
+.content__h2 {
+  margin: 24px 0 20px;
+  margin-right: 300px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -1px;
+  color: #d5d5d6;
+}
+
+.content__h2:hover{
+  text-shadow: 0 0 5px #fff,
+  0 0 10px #fff, 0 0 15px #ff852e,
+  0 0 20px #ff852e, 0 0 25px #ff852e,
+  0 0 30px #ff852e
+}
+.content p:hover{
+  text-shadow: 0 0 5px #fff,
+  0 0 10px #fff, 0 0 15px #ff852e,
+  0 0 20px #ff852e, 0 0 25px #ff852e,
+  0 0 30px #ff852e
+}
+
+.content_input-wraper {
+  border: 1px solid #fcfcff;
+  border-radius: 7px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.content_input-wraper input {
+  line-height: 20px;
+  letter-spacing: -0.3px;
+  color: #d5d5d6;
+  background: none;
+  outline: 0;
+  border: 0;
+  margin-left: 10px;
+}
+
+.content_input-wraper input::placeholder {
+  color: #d5d5d6;
+  width: 50px;
+}
+
+.content_email {
+  display: flex;
+  align-items: center;
+}
+
+
+/* .img-1 {
+  background: url("/src/img/docker.svg") no-repeat;
+}
+.img-2 {
+  background: url("/src/img/css-3.svg") no-repeat;
+}
+.img-3 {
+  background: url("/src/img/git-icon.svg") no-repeat;
+} */

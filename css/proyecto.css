@@ -1,0 +1,77 @@
+.main_pro {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+}
+.box {
+  width: 300px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  border: 3px solid rgba(250, 22, 14, 0.873);
+  box-shadow: 3px 3px 3px 3px rgba(211, 1, 1, 0.5);
+}
+
+.box img {
+  width: 100%;
+  height: 100%;
+}
+.capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+  transition: 0.3 ease;
+}
+
+.box:hover .capa {
+  transform: scale(1);
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 1rem 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(255, 43, 237);
+  color: rgb(234, 234, 234);
+  font-weight: 700;
+  transition: 0.6s;
+  box-shadow: 0px 0px 60px #f1f1f1;
+  -webkit-box-reflect: below 10px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+
+.btn:active {
+  scale: 0.92;
+}
+
+.btn:hover {
+  background: rgb(255, 5, 242);
+  background: linear-gradient(
+    270deg,
+    rgba(255, 16, 215, 0.681) 0%,
+    rgba(250, 22, 14, 0.873) 60%
+  );
+  color: rgb(4, 4, 38);
+}
+
+
+.label_p{
+  display: flex;
+  text-align: center;
+}

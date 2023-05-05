@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+
+body {
+  
+   background-color: #31343d !important; 
+  font-family: "Bruno Ace SC", cursive !important; 
+  font-weight: 500 !important;
+  overflow: hidden;
+}
