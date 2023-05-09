@@ -12,10 +12,12 @@
     <link rel="stylesheet" href="/css/slider.css" />
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/footer.css" />
-    <link rel="stylesheet" href="/css/certifications.css">
-    <link rel="stylesheet" href="/bst/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/spinner.css">
-    <link rel="stylesheet" href="/css/slidebody.css">
+    <link rel="stylesheet" href="/css/certifications.css" />
+    <link rel="stylesheet" href="/bst/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/spinner.css" />
+    <link rel="stylesheet" href="/css/slidebody.css" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="stylesheet" href="/css/proyecto.css"> -->
     <link
@@ -24,7 +26,7 @@
     />
   </head>
 
-<body>
+  <body>
     <div class="centrado">
       <div id="loadding" class="spinner">
         <div class="spinner1"></div>
@@ -32,41 +34,49 @@
     </div>
 
     <!-- La cabecera -->
-    <header class="header">
-      <div class="pdf">
-        <a href="/archivos/cvJLMR.pdf" download="/archivos/cvJLMR.pdf">
-          <i class="bi bi-filetype-pdf">Download CV</i></a
-        >
+    <header>
+      <div class="header">
+        <div class="pdf">
+          <a href="/archivos/cvJLMR.pdf" download="/archivos/cvJLMR.pdf">
+            <i class="bi bi-filetype-pdf">Download CV</i></a
+          >
+        </div>
+        <div class="nav">
+          <nav>
+            <a href="" class="active">home</a>
+            <a href="/html/proyects.html">Proyects</a>
+            <a href="/html/certifications.html">Certifications</a>
+          </nav>
+        </div>
       </div>
-      <nav class="nav">
-        <a href="" class="active">home</a>
-        <a href="/html/proyects.html">Proyects</a>
-        <a href="/html/certifications.html">Certifications</a>
-      </nav>
-    </header>
 
+      <div id="icon">
+        <i class="bi bi-list"></i>
+      </div>
+    </header>
+<div class="container-all" id="move-content">
     <!-- Body -->
     <section class="main">
       <div class="content">
-        <h1 class="content__h1">H, I'm JORGE MAZA</h1>
-        <h2 class="content__h2">Developer</h2>
+        <h1 class="content__h1 float-xl-start">Hi, I'm JORGE MAZA</h1>
+        <h2 class="content__h2 float-xl-start">Developer</h2>
         <p>I am passionate about technology, in search of knowledge.</p>
       </div>
 
       <div class="content-all">
         <div class="content-carrousel">
-            <!-- <figure><img src="/img/git-icon.svg"></figure> -->
-            <figure><img src="/img/Bootstrap New.svg"></figure>
-            <figure><img src="/img/docker.svg"></figure>
-            <figure><img src="/img/html-5.svg"></figure>
-            <figure><img src="/img/icons8-java.svg"></figure>
-            <figure><img src="/img/javascript-1.svg"></figure>
-            <figure><img src="/img/react.svg"></figure>
-            <figure><img src="/img/redux.svg"></figure>
-            <figure><img src="/img/spring.svg"></figure>
-            <figure><img src="/img/reactrouter.svg"></figure>
+          <!-- <figure><img src="/img/git-icon.svg"></figure> -->
+          <figure><img src="/img/Bootstrap New.svg" /></figure>
+          <figure><img src="/img/docker.svg" /></figure>
+          <figure><img src="/img/html-5.svg" /></figure>
+          <figure><img src="/img/icons8-java.svg" /></figure>
+          <figure><img src="/img/javascript-1.svg" /></figure>
+          <figure><img src="/img/react.svg" /></figure>
+          <figure><img src="/img/redux.svg" /></figure>
+          <figure><img src="/img/spring.svg" /></figure>
+          <figure><img src="/img/reactrouter.svg" /></figure>
         </div>
-    </div>
+      </div>
       <!-- Las redes sociales -->
       <div class="redes-container">
         <ul>
@@ -117,16 +127,19 @@
               rel="noopener"
               target="_blank"
             >
-            <i class="bi bi-github"></i></a>
+              <i class="bi bi-github"></i
+            ></a>
           </li>
         </ul>
       </div>
     </section>
 
     <!-- El footer -->
+    <footer>
     <div class="footer">
       <p>Copyright: <span id="current-year"></span> ©</p>
     </div>
+  </footer>
     <!-- <script>
       window.onload = function() {
     let contenedor = document.getElementById('loadding');
@@ -134,6 +147,8 @@
     contenedor.style.opacity = '0';
 }
     </script> -->
+  </div>
+  <script src="/js/footer.js"></script>
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
@@ -145,5 +160,5 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"
   ></script>
-  <script src="/js/footer.js"></script>
+ 
 </html>

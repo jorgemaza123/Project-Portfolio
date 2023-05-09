@@ -9,10 +9,10 @@
 }
 
 .content {
-  margin-top: 300px;
+  /* margin-top: 300px; */
   max-width: 600px;
   width: 500px;
-  height: 100vh;
+  /* height: 100vh; */
   padding: 15px;
   overflow: hidden;
 }
@@ -94,14 +94,3 @@
   display: flex;
   align-items: center;
 }
-
-
-/* .img-1 {
-  background: url("/src/img/docker.svg") no-repeat;
-}
-.img-2 {
-  background: url("/src/img/css-3.svg") no-repeat;
-}
-.img-3 {
-  background: url("/src/img/git-icon.svg") no-repeat;
-} */
